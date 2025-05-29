@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #121212;
+}
+.clock{
+    background-color: #454545;
+    position: relative;
+    top:30vh;
+    left:15vw;
+    height:40vh;
+    width:70vw;
+    border-radius: 30px;
+    padding:20px;
+}
+.screen{
+    background-color: #121212;
+    height:40vh;
+    width:70vw;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+.time{
+    color:green;
+    font-family:cursive;
+    font-size: 10em;
+}
+.dates{
+    position: relative;
+    color:green;
+    font-family:cursive;
+    font-size: 3em;
+}
